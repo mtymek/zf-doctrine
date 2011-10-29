@@ -1,0 +1,21 @@
+connection: doctrine
+options:
+  collate: utf8_unicode_ci
+  charset: utf8
+  
+User:
+  tableName: users
+  columns:
+    id:
+      type: integer
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: true
+    email:
+      type: string(120)
+      notnull: true
+    password:
+      type: string(64)
+      notnull: true
+    

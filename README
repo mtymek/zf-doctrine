@@ -1,1 +1,14 @@
 This example shows how to integrate Zend Framework 1.11 application with Doctrine 1.2.
+
+INSTALLATION
+
+* Download or symlink library/Zend from Zend Framework 1.11 package (http://zendframework.com/download/latest) to library/ folder
+* Download or symlink lib/Doctrine from Doctrine 1.2 package (https://github.com/doctrine/doctrine1) to library/ folder
+* Edit application/configs/application.ini and alter doctrine.dsn entry:
+
+doctrine.dsn = "mysql://USER:PASSWORD@HOST/DATABASE_NAME" 
+
+* Check if installation works:
+
+cd PROJECT_DIRECTORY
+php ./scripts/doctrine-cli.php
