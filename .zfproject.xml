@@ -2,7 +2,7 @@
 <projectProfile type="default" version="1.11.5">
   <projectDirectory>
     <projectProfileFile filesystemName=".zfproject.xml"/>
-    <applicationDirectory classNamePrefix="Application_">
+    <applicationDirectory classNamePrefix="App_">
       <apisDirectory enabled="false"/>
       <configsDirectory>
         <applicationConfigFile type="ini"/>
